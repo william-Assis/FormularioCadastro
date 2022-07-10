@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Formulário de Cadastro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="form_img">
+      <img src="/img/Investimento.svg" alt="">
+    </div>
+    <div class="form">
+      <form action="#">
+        <div class="form_header">
+          <h1>Cadastre-se</h1>
+          <button><a href="#">Entrar</a></button>
+        </div>
+        <div class="form_grup">
+          <div class="form_grup_input">
+            <label for="PrimeiroNome">Primeiro Nome</label>
+            <input type="text" id="PrimeiroNome" name="PrimeiroNome" placeholder="Digite seu primeiro nome" required>
+          </div>
+          <div class="form_grup_input">
+            <label for="SobreNome">Sobrenome</label>
+            <input type="text" id="SobreNome" name="SobreNome" placeholder="Digite seu Sobrenome" required>
+          </div>
+          <div class="form_grup_input">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="form_grup_input">
+            <label for="contato">Telefone</label>
+            <input type="number" id="contato" name="contato" placeholder="(xx) x xxxx-xxxx" required>
+          </div>
+          <div class="form_grup_input">
+            <label for="senha">Senha</label>
+            <input type="number" id="senha" name="senha" placeholder="Digite uma senha" required>
+          </div>
+          <div class="form_grup_input">
+            <label for="ConfirmaSenha">Confirme sua senha</label>
+            <input type="number" id="ConfirmaSenha" name="ConfirmaSenha" placeholder="Digite sua senha novamente" required>
+          </div>
+        </div>
+        <div class="radio_grup">
+          <h6>Genero</h6>
+          <div class="radio_grup_genero">
+            <div class="grup_genero">
+              <input type="radio" id="feminino" name="genero">
+              <label for="feminino">Feminino</label>
+            </div>
+            <div class="grup_genero">
+              <input type="radio" id="masculino" name="genero">
+              <label for="masculino">Masculino</label>
+            </div>
+            <div class="grup_genero">
+              <input type="radio" id="outros" name="genero">
+              <label for="outros">Outros</label>
+            </div>
+            <div class="grup_genero">
+              <input type="radio" id="none" name="genero">
+              <label for="none">Prefiro não informar</label>
+            </div>
+          </div>
+        </div>
+        <button><a href="#">Continuar</a></button>
+      </form>
+    </div>
+  
+  </div>
+</body>
+</html>
